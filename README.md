@@ -1,23 +1,18 @@
-# Expo Router Example Project
+# Expo Router Tempñate
 
-This project demonstrates how to set up and use **Expo Router** for navigation in a React Native application. Expo Router simplifies the navigation process by introducing a file-based routing system, similar to frameworks like Next.js.
+This is a template for navigation in a React Native application using **Expo Router**. Expo Router simplifies the navigation process by introducing a file-based routing system, similar to frameworks like Next.js.
 
-This project includes two basic screens:
-- **Home Screen**: The default screen displayed when the app starts.
-- **Details Screen**: A secondary screen accessible from the Home Screen.
 
 ## Project Structure
 my-project/  
 ├── App.js // Main entry point  
-├── app.json // App configuration 
+├── app.json // App configuration  
 ├── package.json // Dependencies and scripts  
 ├── babel.config.js // Babel configuration  
 ├── app/ // Routes directory  
-│ ├── index.js // Root route  
-│ ├── details.js // "/details" route  
+│ ├── index.js // Root route   
 ├── screens/ // Screens directory  
 │ ├── HomeScreen.js // Home screen component  
-│ ├── DetailsScreen.js// Details screen component  
 ├── assets/ // Assets folder  
 │ ├── icon.png  
 │ ├── splash-icon.png  
@@ -52,15 +47,10 @@ npm install
 Run the following command to start the app:
 
 ```bash
-npx expo start -c
+npx expo start
 ```
 
 This will start the Expo development server. You can use the Expo Go app on your mobile device or an emulator to view the app.
-
-### 4. Navigating Between Pages
-- The Home Screen is displayed by default.
-- Click the "Go to Details" button to navigate to the Details Screen.
-- Use the "Go Back" button to return to the Home Screen.
 
 ### Troubleshooting
 If you encounter issues, try the following:
