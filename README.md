@@ -37,7 +37,7 @@ Follow these steps to set up and run the project:
 ### 1. Clone the Repository
 In the folder where the project will be cloned run:
 ```bash
-git clone https://github.com/shakicardona/Expo-Router-Example
+git clone https://github.com/shakicardona/Expo-Router-Template.git
 cd Expo-Router-Example
 ```
 
